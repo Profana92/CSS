@@ -1,0 +1,18 @@
+p.block {
+  display: block;
+  background-color: chartreuse;
+}
+p.inline {
+  display: inline;
+  background-color: aqua;
+}
+p.inline-block {
+  display: inline-block;
+  background-color: blueviolet;
+}
+.width {
+  width: 300px;
+}
+.height {
+  height: 300px;
+}

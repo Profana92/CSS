@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sposoby wyświetlania elementów</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    Elementy mogą być wyświetlane na wiele sposobów, należą do nich:
+
+    <h1>Element blokowy</h1>
+    <p class="block">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis ex
+      beatae odio minima quod tenetur aspernatur ipsum, delectus ducimus eum,
+      debitis mollitia ipsam a soluta laboriosam iusto deserunt, et molestias.
+    </p>
+    <h1>Element liniowy</h1>
+    <p class="inline">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis accusamus,
+      voluptas placeat deserunt consectetur veniam similique, laboriosam quam
+      quos doloremque ratione eius dolores, enim cum explicabo ipsum. Sapiente,
+      obcaecati omnis.
+    </p>
+    <h1>Element wewnątrzwierszowo-blokowy</h1>
+    <p class="inline-block">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam,
+      minima similique ullam, debitis quod consectetur voluptatibus placeat sit
+      doloribus facere repellendus autem magni molestias nesciunt provident
+      blanditiis quae distinctio cumque!
+    </p>
+
+    <p>
+      Na powyższym przykładzie widzimy, że różnej wielkości jest generowany
+      kontener elementów. Zachowanie elementów block oraz inline nie budzi
+      większych wątpliwości, zwyczajnie inne są ich generowane kontenery,
+      pytanie jednak dość istotne nasuwa się w przypadku inline-block. Po co
+      więc jest wartośc inline-block, jeśli wygląda identycznie do block? Główne
+      różnice przedstawione zostaną poniżej w formie przykładu graficznego.
+    </p>
+
+    <p class="block width height">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis ex
+      beatae odio minima quod tenetur aspernatur ipsum, delectus ducimus eum,
+      debitis mollitia ipsam a soluta laboriosam iusto deserunt, et molestias.
+    </p>
+    <p class="inline width height">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis accusamus,
+      voluptas placeat deserunt consectetur veniam similique, laboriosam quam
+      quos doloremque ratione eius dolores, enim cum explicabo ipsum. Sapiente,
+      obcaecati omnis.
+    </p>
+    </br>
+    <p class="inline-block width height">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam,
+      minima similique ullam, debitis quod consectetur voluptatibus placeat sit
+      doloribus facere repellendus autem magni molestias nesciunt provident
+      blanditiis quae distinctio cumque!
+    </p>
+    Dla powyższych trzech przykładów ustawiona została wartość width na 300px 
+    i height na 300px. Jak widzimy głównym celem stosowania inline-block jest 
+    więc chęć nadania elementowi liniowemu stałych wymiarów. Co więcej, tekst
+    ten ukazuje również kolejną ciekawą zależnośc między elementem block
+    a inline block - pomimo wymiarów stałych jak element blokowy nie zajmuje 
+    on "pełnego obszaru wiersza" i umożliwia umieszczenie treści dodatkowej obok niego.
+  </body>
+</html>
