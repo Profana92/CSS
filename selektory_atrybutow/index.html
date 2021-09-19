@@ -10,7 +10,14 @@
   <body>
     Podstrona ta poświęcona jest zrozumieniu selektorów atrybutów. Zwyczajne
     selektory klas oraz atrybutów nie stanowią większego problemu w ich
-    zrozumieniu, jednak selektory atrybutów stanowią bardziej rozwiniętą
-    koncepcję.
+    zrozumieniu, jednak zawansowane koncepcje pierwszeństwa reguł stanowią
+    problem bardziej złożony, którego analizie służy ta podstrona. Najpierw
+    rozważmy element p, o przypisanym kolorze liniowym niebieskim i stylu css:
+    <code> p { color: red; }</code>
+    <code> p[id] { color: red !important; }</code>
+    <p style="color: blue">Testowu akapit</p>
+    <p id="id" style="color: blue">Testowu akapit</p>
+    element o stylu liniowym ma pierwszenstwo przed stylem zewnetrznym, pod
+    warunkiem, że nie zostanie zastosowana deklaracja !important
   </body>
 </html>

@@ -1,0 +1,10 @@
+p {
+  color: red;
+}
+p[id] {
+  color: red !important;
+}
+code {
+  margin: 1em;
+  display: block;
+}
